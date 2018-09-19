@@ -1,0 +1,93 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_thankyou
+- utter_ask_location
+- utter_ask_person_phone
+- utter_ask_person_email
+- utter_joke_lick
+- utter_insulting_bot
+- utter_waiting_message
+- utter_joke_seen
+- utter_joke_love
+- action_weather
+- action_lookup_phonenumber
+- action_lookup_email
+config:
+  store_entities_as_slots: true
+entities:
+- location
+- person_phonenumber
+- person_email
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- thankyou:
+    use_entities: true
+- inform_weather:
+    use_entities: true
+- lookup_phonenumber:
+    use_entities: true
+- lookup_email:
+    use_entities: true
+- joke_lick:
+    use_entities: true
+- joke_insulting_bot:
+    use_entities: true
+- joke_waiting_message:
+    use_entities: true
+- joke_seen:
+    use_entities: true
+- joke_love:
+    use_entities: true
+slots:
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  person_email:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  person_phonenumber:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_location:
+  - text: Xin cung cấp địa điểm
+  utter_ask_person_email:
+  - text: Email của ai?
+  utter_ask_person_phone:
+  - text: Số điện thoại của ai?
+  utter_goodbye:
+  - text: Tạm biệt, nói chuyện với bạn sau
+  - text: Bye bye :(
+  - text: Tạm biệt :(
+  utter_greet:
+  - text: Xin chào! Tôi có thể giúp gì cho bạn?
+  - text: Xin chào! Bot đây ạ
+  utter_insulting_bot:
+  - text: Tao rất thông minh nhé, thằng ngu
+  - text: Cái thứ vô học
+  - text: Mày ngu thì có
+  - text: Im con mẹ mày đi. Đồ chó!
+  utter_joke_lick:
+  - text: Xin liên hệ Diệu Chi <3. Cô ấy rất chuyên nghiệp.
+  utter_joke_love:
+  - text: Không nhé. Hỏi thằng tạo ra tao ấy
+  - text: How about đéo?
+  - text: Đéoooooo
+  utter_joke_seen:
+  - text: SEEN :D
+  - text: SEENNNNNN :D
+  - text: SEENNNNNNNNNNNNN :D
+  - text: Seen cmm
+  utter_thankyou:
+  - text: Cám ơn thím
+  - text: Thank you
+  utter_waiting_message:
+  - text: Chờ chút nhé, bot đang xử lí câu của bạn
+  - text: Chờ chút làm gì căng
+  - text: Tao thích thì tao rep lâu. Problem?!

@@ -1,0 +1,8 @@
+# Start custom actions
+python -m rasa_core_sdk.endpoint --actions actions
+
+# Start run app
+python run_app_facebook.py
+
+# Start ngrok
+ngrok http 5004

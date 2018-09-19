@@ -1,0 +1,9 @@
+ language: "xx"
+
+ pipeline:
+ - name: "nlp_spacy"
+   model: "xx"
+ - name: "tokenizer_spacy"
+ - name: "ner_crf"
+ - name: "intent_featurizer_spacy"
+ - name: "intent_classifier_sklearn"

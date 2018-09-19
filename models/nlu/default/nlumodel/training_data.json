@@ -1,0 +1,980 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "xin chào"
+      },
+      {
+        "intent": "greet",
+        "text": "chào mày"
+      },
+      {
+        "intent": "greet",
+        "text": "chào bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "chào"
+      },
+      {
+        "intent": "greet",
+        "text": "Alo"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Tạm biệt"
+      },
+      {
+        "intent": "goodbye",
+        "text": "hẹn gặp lại"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cám ơn bot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cám ơn"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cám ơn mày"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ],
+        "text": "Thời tiết hiện tại ở Berlin là gì?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Cho tôi biết thời tiết ngày hôm nay?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "Thời tiết ngày hôm nay ở London là gì?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "Sài Gòn",
+            "entity": "location"
+          }
+        ],
+        "text": "Thời tiết ngày hôm nay ở Sài Gòn là gì?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "Thời tiết ở London ngày hôm nay là gì?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ],
+        "text": "Cho tôi biết thời tiết ở Paris?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ],
+        "text": "Cho tôi biết thời tiết hiện tại ở Paris?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ],
+        "text": "Cho tôi biết thời tiết hiện tại ở Paris là gì?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Thông báo thời tiết hiện tại"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Thời tiết hiện tại là gì?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Thời tiết hiện tại?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Cho tôi biết thời tiết hiện tại?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Cho tôi biết thời tiết hiện tại là gì?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Nói cho tôi biết thời tiết bây giờ"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Cho tôi biết thời tiết bây giờ"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Thời tiết bây giờ?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Cho tôi biết thời tiết ngày hôm nay"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "saigon",
+            "entity": "location"
+          }
+        ],
+        "text": "thời tiết saigon ngày hôm nay?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Thời tiết ngày hôm nay?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Thời tiết ngày hôm nay là gì?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Saigon",
+            "entity": "location"
+          }
+        ],
+        "text": "Thời tiết hôm nay ở Saigon có đẹp không?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Saigon",
+            "entity": "location"
+          }
+        ],
+        "text": "Tôi dự định đi Saigon hôm nay và không biết thời tiết ở đó có đẹp không?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ],
+        "text": "Tôi dự định đi Amsterdam. Thời tiết ở đó như thế nào?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Thời tiết ngày hôm nay như thế nào?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Cho tôi biết thời tiết hiện tại như thế nào?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Thời tiết hiện tại như thế nào?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ],
+        "text": "Thời tiết hiện tại ở Berlin như thế nào?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "Thời tiết ngày hôm nay ở London như thế nào?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "Thời tiết ở London ngày hôm nay như thế nào?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ],
+        "text": "Cho tôi biết thời tiết hiện tại ở Paris ra sao?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Cho tôi biết thời tiết hôm nay ra sao?"
+      },
+      {
+        "intent": "inform_weather",
+        "text": "Thời tiết ngày hôm nay ra sao?"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "Thời tiết ở London"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 2,
+            "end": 8,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ],
+        "text": "ở Berlin"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "Oh, xin lỗi, ở Italy"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ],
+        "text": "Cho tôi biết thời tiết ở Vilnius"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "Điều kiện thời tiết ở Italy"
+      },
+      {
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "Điều kiện thời tiết ở Italy ra sao?"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "Huy",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "Tìm số điện thoại của Huy?"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "text": "Tìm số điện thoại"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "text": "Tìm sdt"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "text": "Tìm SDT"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "Huy",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "Tìm sdt của Huy?"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 18,
+            "end": 21,
+            "value": "Chi",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "Số điện thoại của Chi?"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "Chi",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "sdt của Chi?"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "Hưng",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "cho tôi biết số điện thoại của Hưng"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Giang",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "Cho tôi biết số điện thoại của Giang?"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Giang",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "Cho tôi biết sdt của Giang?"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "text": "sdt"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "text": "SDT"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "text": "Số điện thoại"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "Tấn",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "sdt của anh Tấn"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "Tấn",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "số điện thoại của anh Tấn"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "Linh",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "SDT của anh Linh"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "Hồng",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "số điện thoại chị Hồng"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Linh",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "sdt chị Linh"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "Huy",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "số điện thoại em Huy"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "Chi",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "sdt Chi"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "Chi",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "số điện thoại Chi"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "text": "cho hỏi sdt"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "text": "cho hỏi số điện thoại"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 35,
+            "end": 39,
+            "value": "Hưng",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "Cho tôi biết số điện thoại của anh Hưng?"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "Tấn",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "Cho biết số điện thoại của anh Tấn?"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "Linh",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "Cho biết sdt của anh Linh?"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "Chi",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "Cho biết SDT của chị Chi?"
+      },
+      {
+        "intent": "lookup_phonenumber",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "Thu",
+            "entity": "person_phonenumber"
+          }
+        ],
+        "text": "Số điện thoại của chị Thu?"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "Huy",
+            "entity": "person_email"
+          }
+        ],
+        "text": "Tìm email của Huy?"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "Chi",
+            "entity": "person_email"
+          }
+        ],
+        "text": "Email của Chi?"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "Huy",
+            "entity": "person_email"
+          }
+        ],
+        "text": "mail của Huy?"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Giang",
+            "entity": "person_email"
+          }
+        ],
+        "text": "Cho tôi biết email của Giang?"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "Tâm",
+            "entity": "person_email"
+          }
+        ],
+        "text": "cho tôi biết email của Tâm"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "Thu",
+            "entity": "person_email"
+          }
+        ],
+        "text": "Email của Thu là gì?"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "Tấn",
+            "entity": "person_email"
+          }
+        ],
+        "text": "Tìm cho tôi email của Tấn?"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "Tâm",
+            "entity": "person_email"
+          }
+        ],
+        "text": "Cho tôi biết mail của Tâm?"
+      },
+      {
+        "intent": "lookup_email",
+        "text": "email"
+      },
+      {
+        "intent": "lookup_email",
+        "text": "mail"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "Dũng",
+            "entity": "person_email"
+          }
+        ],
+        "text": "Tìm email của anh Dũng?"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "Xuân",
+            "entity": "person_email"
+          }
+        ],
+        "text": "Email của chị Xuân?"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "Hưng",
+            "entity": "person_email"
+          }
+        ],
+        "text": "email của Hưng?"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "Hưng",
+            "entity": "person_email"
+          }
+        ],
+        "text": "email của anh Hưng?"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "Dũng",
+            "entity": "person_email"
+          }
+        ],
+        "text": "Cho tôi biết email của em Dũng?"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "Linh",
+            "entity": "person_email"
+          }
+        ],
+        "text": "Cho tôi biết email của anh Linh là gì?"
+      },
+      {
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "Huy",
+            "entity": "person_email"
+          }
+        ],
+        "text": "Cho tôi biết mail của Huy là gì?"
+      },
+      {
+        "intent": "joke_lick",
+        "text": "Đá lưỡi em đi"
+      },
+      {
+        "intent": "joke_lick",
+        "text": "Liếm em đi anh"
+      },
+      {
+        "intent": "joke_lick",
+        "text": "Hôn em đi anh"
+      },
+      {
+        "intent": "joke_lick",
+        "text": "Liếm anh đi em"
+      },
+      {
+        "intent": "joke_lick",
+        "text": "Hôn anh đi em"
+      },
+      {
+        "intent": "joke_lick",
+        "text": "Đá lưỡi anh đi"
+      },
+      {
+        "intent": "joke_insulting_bot",
+        "text": "bot ngu quá"
+      },
+      {
+        "intent": "joke_insulting_bot",
+        "text": "bot ngu"
+      },
+      {
+        "intent": "joke_insulting_bot",
+        "text": "bot vô học"
+      },
+      {
+        "intent": "joke_insulting_bot",
+        "text": "sao mày ngu quá vậy?"
+      },
+      {
+        "intent": "joke_insulting_bot",
+        "text": "Why are you so dumb?"
+      },
+      {
+        "intent": "joke_insulting_bot",
+        "text": "Stupid bitch"
+      },
+      {
+        "intent": "joke_waiting_message",
+        "text": "sao im rồi"
+      },
+      {
+        "intent": "joke_waiting_message",
+        "text": "sao im lặng rồi"
+      },
+      {
+        "intent": "joke_waiting_message",
+        "text": "sao không trả lời"
+      },
+      {
+        "intent": "joke_waiting_message",
+        "text": "bot đâu rồi?"
+      },
+      {
+        "intent": "joke_waiting_message",
+        "text": "sao rep lâu vậy"
+      },
+      {
+        "intent": "joke_seen",
+        "text": "seen cái beep"
+      },
+      {
+        "intent": "joke_seen",
+        "text": "seen"
+      },
+      {
+        "intent": "joke_seen",
+        "text": "đã xem"
+      },
+      {
+        "intent": "joke_love",
+        "text": "Do you love me?"
+      },
+      {
+        "intent": "joke_love",
+        "text": "Anh có yêu em không?"
+      },
+      {
+        "intent": "joke_love",
+        "text": "Yêu em không?"
+      },
+      {
+        "intent": "joke_love",
+        "text": "can you help me to find my lover?"
+      },
+      {
+        "intent": "joke_love",
+        "text": "Có thể giúp tôi tìm người yêu?"
+      },
+      {
+        "intent": "joke_love",
+        "text": "tìm người yêu"
+      },
+      {
+        "intent": "joke_love",
+        "text": "người yêu của tôi ở đâu?"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

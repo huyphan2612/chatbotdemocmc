@@ -1,0 +1,79 @@
+slots:
+  location:
+    type: text
+  person_phonenumber:
+    type: text
+  person_email:
+    type: text
+
+intents:
+ - greet
+ - goodbye
+ - thankyou
+ - inform_weather
+ - lookup_phonenumber
+ - lookup_email
+ - joke_lick
+ - joke_insulting_bot
+ - joke_waiting_message
+ - joke_seen
+ - joke_love
+
+entities:
+ - location
+ - person_phonenumber
+ - person_email
+
+templates:
+  utter_greet:
+    - 'Xin chào! Tôi có thể giúp gì cho bạn?'
+    - 'Xin chào! Bot đây ạ'
+  utter_goodbye:
+    - 'Tạm biệt, nói chuyện với bạn sau'
+    - 'Bye bye :('
+    - 'Tạm biệt :('
+  utter_thankyou:
+    - 'Cám ơn thím'
+    - 'Thank you'
+  utter_ask_location:
+    - 'Xin cung cấp địa điểm'
+  utter_ask_person_phone:
+    - 'Số điện thoại của ai?'
+  utter_ask_person_email:
+    - 'Email của ai?'
+  utter_joke_lick:
+    - 'Xin liên hệ Diệu Chi <3. Cô ấy rất chuyên nghiệp.'
+  utter_insulting_bot:
+    - 'Tao rất thông minh nhé, thằng ngu'
+    - 'Cái thứ vô học'
+    - 'Mày ngu thì có'
+    - 'Im con mẹ mày đi. Đồ chó!'
+  utter_waiting_message:
+    - 'Chờ chút nhé, bot đang xử lí câu của bạn'
+    - 'Chờ chút làm gì căng'
+    - 'Tao thích thì tao rep lâu. Problem?!'
+  utter_joke_seen:
+    - 'SEEN :D'
+    - 'SEENNNNNN :D'
+    - 'SEENNNNNNNNNNNNN :D'
+    - 'Seen cmm'
+  utter_joke_love:
+    - 'Không nhé. Hỏi thằng tạo ra tao ấy'
+    - 'How about đéo?'
+    - 'Đéoooooo'
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_thankyou
+ - utter_ask_location
+ - utter_ask_person_phone
+ - utter_ask_person_email
+ - utter_joke_lick
+ - utter_insulting_bot
+ - utter_waiting_message
+ - utter_joke_seen
+ - utter_joke_love
+ - action_weather
+ - action_lookup_phonenumber
+ - action_lookup_email
