@@ -1,9 +1,9 @@
- language: "xx"
+language: "xx"
 
- pipeline:
- - name: "nlp_spacy"
-   model: "xx"
- - name: "tokenizer_spacy"
- - name: "ner_crf"
- - name: "intent_featurizer_spacy"
- - name: "intent_classifier_sklearn"
+pipeline:
+- name: "tokenizer_whitespace"
+  model: "xx"
+- name: "ner_crf"
+- name: "ner_synonyms"
+- name: "intent_featurizer_count_vectors"
+- name: "intent_classifier_tensorflow_embedding"

@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\Projects\\Project MS Chatbot CMC\\chatbotdemocmc\\./models/nlu\\default\\nlumodel\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "D:\\Projects\\Project MS Chatbot CMC\\chatbotdemocmc\\./models/nlu\\default\\nlumodel\\intent_classifier_tensorflow_embedding.ckpt"

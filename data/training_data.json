@@ -115,13 +115,26 @@
             "end": 27,
             "value": "Berlin",
             "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
       {
         "text": "Cho tôi biết thời tiết ngày hôm nay?",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Thời tiết ngày hôm nay ở London là gì?",
@@ -132,6 +145,12 @@
             "end": 31,
             "value": "London",
             "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -142,8 +161,14 @@
           {
             "start": 25,
             "end": 32,
-            "value": "Sài Gòn",
+            "value": "Saigon",
             "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -156,6 +181,12 @@
             "end": 18,
             "value": "London",
             "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -168,6 +199,12 @@
             "end": 30,
             "value": "Paris",
             "entity": "location"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -180,6 +217,12 @@
             "end": 39,
             "value": "Paris",
             "entity": "location"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -192,97 +235,198 @@
             "end": 39,
             "value": "Paris",
             "entity": "location"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
       {
         "text": "Thông báo thời tiết hiện tại",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Thời tiết hiện tại là gì?",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Thời tiết hiện tại?",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Cho tôi biết thời tiết hiện tại?",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Cho tôi biết thời tiết hiện tại là gì?",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Nói cho tôi biết thời tiết bây giờ",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Cho tôi biết thời tiết bây giờ",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Thời tiết bây giờ?",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Cho tôi biết thời tiết ngày hôm nay",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
-        "text": "thời tiết saigon ngày hôm nay?",
+        "text": "thời tiết Sài gòn ngày hôm nay?",
         "intent": "inform_weather",
         "entities": [
           {
             "start": 10,
-            "end": 16,
-            "value": "saigon",
+            "end": 17,
+            "value": "Saigon",
             "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
       {
         "text": "Thời tiết ngày hôm nay?",
         "intent": "inform_weather",
-        "entities": []
-      },
-      {
-        "text": "Thời tiết ngày hôm nay là gì?",
-        "intent": "inform_weather",
-        "entities": []
-      },
-      {
-        "text": "Thời tiết hôm nay ở Saigon có đẹp không?",
-        "intent": "inform_weather",
         "entities": [
           {
-            "start": 20,
-            "end": 26,
-            "value": "Saigon",
-            "entity": "location"
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
       {
-        "text": "Tôi dự định đi Saigon hôm nay và không biết thời tiết ở đó có đẹp không?",
+        "text": "Thời tiết ngày hôm nay là gì?",
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
+      },
+      {
+        "text": "Thời tiết hôm nay ở Sài gòn có đẹp không?",
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Saigon",
+            "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
+      },
+      {
+        "text": "Tôi dự định đi Sài gòn hôm nay và không biết thời tiết ở đó có đẹp không?",
         "intent": "inform_weather",
         "entities": [
           {
             "start": 15,
-            "end": 21,
+            "end": 22,
             "value": "Saigon",
             "entity": "location"
+          },
+          {
+            "start": 44,
+            "end": 53,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -295,23 +439,50 @@
             "end": 24,
             "value": "Amsterdam",
             "entity": "location"
+          },
+          {
+            "start": 26,
+            "end": 35,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
       {
         "text": "Thời tiết ngày hôm nay như thế nào?",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Cho tôi biết thời tiết hiện tại như thế nào?",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Thời tiết hiện tại như thế nào?",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Thời tiết hiện tại ở Berlin như thế nào?",
@@ -322,6 +493,12 @@
             "end": 27,
             "value": "Berlin",
             "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -334,18 +511,30 @@
             "end": 31,
             "value": "London",
             "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
       {
-        "text": "Thời tiết ở London ngày hôm nay như thế nào?",
+        "text": "Thời tiết ở luân đôn ngày hôm nay như thế nào?",
         "intent": "inform_weather",
         "entities": [
           {
             "start": 12,
-            "end": 18,
+            "end": 20,
             "value": "London",
             "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -358,28 +547,90 @@
             "end": 39,
             "value": "Paris",
             "entity": "location"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
       {
         "text": "Cho tôi biết thời tiết hôm nay ra sao?",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Thời tiết ngày hôm nay ra sao?",
         "intent": "inform_weather",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
-        "text": "Thời tiết ở London",
+        "text": "thời tiết Sài gòn ngày hôm nay như thế nào?",
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Saigon",
+            "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
+      },
+      {
+        "text": "thời tiết Sài gòn ngày hôm nay?",
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Saigon",
+            "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
+      },
+      {
+        "text": "Thời tiết ở Luân Đôn",
         "intent": "inform_weather",
         "entities": [
           {
             "start": 12,
-            "end": 18,
+            "end": 20,
             "value": "London",
             "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thời tiết",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -416,6 +667,12 @@
             "end": 32,
             "value": "Vilnius",
             "entity": "location"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -428,6 +685,12 @@
             "end": 27,
             "value": "Italy",
             "entity": "location"
+          },
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -440,6 +703,12 @@
             "end": 27,
             "value": "Italy",
             "entity": "location"
+          },
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -451,24 +720,51 @@
             "start": 22,
             "end": 25,
             "value": "Huy",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 4,
+            "end": 17,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
       {
         "text": "Tìm số điện thoại",
         "intent": "lookup_phonenumber",
-        "entities": []
+        "entities": [
+          {
+            "start": 4,
+            "end": 17,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Tìm sdt",
         "intent": "lookup_phonenumber",
-        "entities": []
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Tìm SDT",
         "intent": "lookup_phonenumber",
-        "entities": []
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Tìm sdt của Huy?",
@@ -478,7 +774,13 @@
             "start": 12,
             "end": 15,
             "value": "Huy",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -490,7 +792,13 @@
             "start": 18,
             "end": 21,
             "value": "Chi",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 13,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -502,7 +810,13 @@
             "start": 8,
             "end": 11,
             "value": "Chi",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -514,7 +828,13 @@
             "start": 31,
             "end": 35,
             "value": "Hưng",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 13,
+            "end": 26,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -526,7 +846,13 @@
             "start": 31,
             "end": 36,
             "value": "Giang",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 13,
+            "end": 26,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -538,24 +864,51 @@
             "start": 21,
             "end": 26,
             "value": "Giang",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
       {
         "text": "sdt",
         "intent": "lookup_phonenumber",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "SDT",
         "intent": "lookup_phonenumber",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Số điện thoại",
         "intent": "lookup_phonenumber",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "sdt của anh Tấn",
@@ -565,7 +918,13 @@
             "start": 12,
             "end": 15,
             "value": "Tấn",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -577,7 +936,13 @@
             "start": 22,
             "end": 25,
             "value": "Tấn",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 13,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -589,7 +954,13 @@
             "start": 12,
             "end": 16,
             "value": "Linh",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -601,7 +972,13 @@
             "start": 18,
             "end": 22,
             "value": "Hồng",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 13,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -613,7 +990,13 @@
             "start": 8,
             "end": 12,
             "value": "Linh",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -625,7 +1008,13 @@
             "start": 17,
             "end": 20,
             "value": "Huy",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 13,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -637,7 +1026,13 @@
             "start": 4,
             "end": 7,
             "value": "Chi",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -649,19 +1044,39 @@
             "start": 14,
             "end": 17,
             "value": "Chi",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 13,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
       {
         "text": "cho hỏi sdt",
         "intent": "lookup_phonenumber",
-        "entities": []
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "cho hỏi số điện thoại",
         "intent": "lookup_phonenumber",
-        "entities": []
+        "entities": [
+          {
+            "start": 8,
+            "end": 21,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Cho tôi biết số điện thoại của anh Hưng?",
@@ -671,7 +1086,13 @@
             "start": 35,
             "end": 39,
             "value": "Hưng",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 13,
+            "end": 26,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -683,7 +1104,13 @@
             "start": 31,
             "end": 34,
             "value": "Tấn",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 9,
+            "end": 22,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -695,7 +1122,13 @@
             "start": 21,
             "end": 25,
             "value": "Linh",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -707,7 +1140,13 @@
             "start": 21,
             "end": 24,
             "value": "Chi",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -719,7 +1158,13 @@
             "start": 22,
             "end": 25,
             "value": "Thu",
-            "entity": "person_phonenumber"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 13,
+            "value": "so dien thoai",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -731,7 +1176,13 @@
             "start": 14,
             "end": 17,
             "value": "Huy",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 4,
+            "end": 9,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -743,7 +1194,13 @@
             "start": 10,
             "end": 13,
             "value": "Chi",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -755,7 +1212,13 @@
             "start": 9,
             "end": 12,
             "value": "Huy",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 4,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -767,7 +1230,13 @@
             "start": 23,
             "end": 28,
             "value": "Giang",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -779,7 +1248,13 @@
             "start": 23,
             "end": 26,
             "value": "Tâm",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -791,7 +1266,13 @@
             "start": 10,
             "end": 13,
             "value": "Thu",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -803,7 +1284,13 @@
             "start": 22,
             "end": 25,
             "value": "Tấn",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 12,
+            "end": 17,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -815,19 +1302,39 @@
             "start": 22,
             "end": 25,
             "value": "Tâm",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
       {
         "text": "email",
         "intent": "lookup_email",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "email",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "mail",
         "intent": "lookup_email",
-        "entities": []
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "email",
+            "entity": "info_lookup_type"
+          }
+        ]
       },
       {
         "text": "Tìm email của anh Dũng?",
@@ -837,7 +1344,13 @@
             "start": 18,
             "end": 22,
             "value": "Dũng",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 4,
+            "end": 9,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -849,7 +1362,13 @@
             "start": 14,
             "end": 18,
             "value": "Xuân",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -861,7 +1380,13 @@
             "start": 10,
             "end": 14,
             "value": "Hưng",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -873,7 +1398,13 @@
             "start": 14,
             "end": 18,
             "value": "Hưng",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -885,7 +1416,13 @@
             "start": 26,
             "end": 30,
             "value": "Dũng",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -897,7 +1434,13 @@
             "start": 27,
             "end": 31,
             "value": "Linh",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -909,7 +1452,13 @@
             "start": 22,
             "end": 25,
             "value": "Huy",
-            "entity": "person_email"
+            "entity": "person"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "email",
+            "entity": "info_lookup_type"
           }
         ]
       },
@@ -1047,6 +1596,103 @@
         "text": "người yêu của tôi ở đâu?",
         "intent": "joke_love",
         "entities": []
+      },
+      {
+        "text": "Thời tiết ngày hôm nay ở Luân Đôn là gì?",
+        "intent": "inform_weather",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "London",
+            "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Thoi tiet",
+            "entity": "info_lookup_type"
+          }
+        ]
+      },
+      {
+        "text": "cho tôi biết email của giang là gì?",
+        "intent": "lookup_email",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "email",
+            "entity": "info_lookup_type"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "giang",
+            "entity": "person"
+          }
+        ]
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "London",
+        "synonyms": [
+          "Luân Đôn",
+          "Luan don",
+          "luan don",
+          "luân đôn"
+        ]
+      },
+      {
+        "value": "Thoi tiet",
+        "synonyms": [
+          "thời tiết",
+          "thoi tiet",
+          "Thời tiết"
+        ]
+      },
+      {
+        "value": "Saigon",
+        "synonyms": [
+          "Sài Gòn",
+          "sài gon",
+          "sai gon",
+          "saigon"
+        ]
+      },
+      {
+        "value": "Vietnam",
+        "synonyms": [
+          "Việt Nam",
+          "việt nam",
+          "Viet nam",
+          "viet nam"
+        ]
+      },
+      {
+        "value": "so dien thoai",
+        "synonyms": [
+          "số điện thoại",
+          "sdt",
+          "SDT",
+          "sđt",
+          "SĐT",
+          "Số điện thoại"
+        ]
+      },
+      {
+        "value": "email",
+        "synonyms": [
+          "mail",
+          "Email"
+        ]
       }
     ]
   }

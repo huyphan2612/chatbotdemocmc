@@ -19,8 +19,8 @@ config:
   store_entities_as_slots: true
 entities:
 - location
-- person_phonenumber
-- person_email
+- person
+- info_lookup_type
 intents:
 - greet:
     use_entities: true
@@ -44,14 +44,20 @@ intents:
     use_entities: true
 - joke_love:
     use_entities: true
+- out_of_scope:
+    use_entities: true
 slots:
+  info_lookup_type:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - so dien thoai
+    - email
+    - thoi tiet
   location:
     initial_value: null
     type: rasa_core.slots.TextSlot
-  person_email:
-    initial_value: null
-    type: rasa_core.slots.TextSlot
-  person_phonenumber:
+  person:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
@@ -61,6 +67,9 @@ templates:
   - text: Email của ai?
   utter_ask_person_phone:
   - text: Số điện thoại của ai?
+  utter_default:
+  - text: Xin lỗi, bot không hiểu bạn nói gì? Xin liện hệ trực tiếp với lễ tân để
+      biết thêm chi tiết
   utter_goodbye:
   - text: Tạm biệt, nói chuyện với bạn sau
   - text: Bye bye :(

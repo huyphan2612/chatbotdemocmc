@@ -11,6 +11,8 @@ from rasa_core.policies.memoization import MemoizationPolicy
 from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.utils import EndpointConfig
 from rasa_core.run import serve_application
+from rasa_core.policies.fallback import FallbackPolicy
+from rasa_core.policies.keras_policy import KerasPolicy
 
 logger = logging.getLogger(__name__)
 
@@ -18,11 +20,14 @@ logger = logging.getLogger(__name__)
 def train_dialogue(domain_file='domain.yml',
                    model_path='./models/dialogue',
                    training_data_file='./data/stories.md'):
-    agent = Agent(domain_file, policies=[MemoizationPolicy(), KerasPolicy()])
+    fallback = FallbackPolicy(fallback_action_name="action_default_fallback",
+                              core_threshold=0.3,
+                              nlu_threshold=0.9)
+    agent = Agent(domain_file, policies=[MemoizationPolicy(), KerasPolicy(), fallback])
     data = agent.load_data(training_data_file)
     agent.train(
         data,
-        epochs=500,
+        epochs=300,
         batch_size=50,
         validation_split=0.2)
 

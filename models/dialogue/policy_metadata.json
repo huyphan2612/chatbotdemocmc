@@ -3,26 +3,22 @@
     "action_listen": {
       "slots": [
         "location",
-        "person_phonenumber",
-        "person_email"
+        "info_lookup_type",
+        "person"
       ]
     },
-    "utter_goodbye": {
+    "action_restart": {
       "slots": []
     },
-    "utter_insulting_bot": {
-      "slots": []
-    },
-    "utter_joke_seen": {
-      "slots": []
-    },
-    "utter_joke_love": {
-      "slots": []
+    "action_weather": {
+      "slots": [
+        "location"
+      ]
     },
     "utter_waiting_message": {
       "slots": []
     },
-    "utter_joke_lick": {
+    "utter_goodbye": {
       "slots": []
     }
   },
@@ -30,11 +26,13 @@
   "python": "3.6.5",
   "max_histories": [
     5,
-    5
+    5,
+    null
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy"
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
   ]
 }

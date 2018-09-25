@@ -1,10 +1,14 @@
 slots:
   location:
     type: text
-  person_phonenumber:
+  person:
     type: text
-  person_email:
-    type: text
+  info_lookup_type:
+    type: categorical
+    values:
+    - 'so dien thoai'
+    - 'email'
+    - 'Thoi tiet'
 
 intents:
  - greet
@@ -18,11 +22,12 @@ intents:
  - joke_waiting_message
  - joke_seen
  - joke_love
+ - out_of_scope
 
 entities:
  - location
- - person_phonenumber
- - person_email
+ - person
+ - info_lookup_type
 
 templates:
   utter_greet:
@@ -61,6 +66,8 @@ templates:
     - 'Không nhé. Hỏi thằng tạo ra tao ấy'
     - 'How about đéo?'
     - 'Đéoooooo'
+  utter_default:
+    - 'Xin lỗi, bot không hiểu bạn nói gì? Xin liện hệ trực tiếp với lễ tân để biết thêm chi tiết'
 
 actions:
  - utter_greet

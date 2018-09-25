@@ -37,51 +37,49 @@ class ActionLookupPhonenumber(Action):
         return 'action_lookup_phonenumber'
 
     def run(self, dispatcher, tracker, domain):
-        person_phonenumber = tracker.get_slot('person_phonenumber')
+        per = tracker.get_slot('person')
 
         ## Instance to connect to SQL Server
-        conn = pymssql.connect(server="10.222.238.59", user="asap", password="p@sswOrd", database="CMIS_ASAP")
+        conn = pymssql.connect(server="13.76.131.229", user="sa", password="P@ssw0rd", database="CMCSISG_Contact")
         cursor = conn.cursor()
 
-        cursor.execute('''SELECT [Phone]
-          FROM [CMIS_ASAP].[dbo].[UserGroups] ug
-          LEFT JOIN [CMIS_ASAP].[dbo].[Users] u on ug.UserID = u.ID
-          where ug.GroupID=10099 and [LastName] like %s''', person_phonenumber)
+        cursor.execute('''[Phone]
+                      FROM [CMCSISG_Contact].[dbo].[Contacts]
+                      WHERE [LastName] like %s''', per)
 
         for row in cursor:
             phonenumber  = row[0]
 
         response = """Đây là số điện thoại của {}: {}""".format(
-            person_phonenumber, phonenumber)
+            per, phonenumber)
 
         dispatcher.utter_message(response)
 
         conn.close()
-        return [SlotSet('person_phonenumber', person_phonenumber)]
+        return [SlotSet('person', per)]
 
 class ActionLookupEmail(Action):
     def name(self):
         return 'action_lookup_email'
 
     def run(self, dispatcher, tracker, domain):
-        person_email = tracker.get_slot('person_email')
+        per = tracker.get_slot('person')
 
         ## Instance to connect to SQL Server
-        conn = pymssql.connect(server="10.222.238.59", user="asap", password="p@sswOrd", database="CMIS_ASAP")
+        conn = pymssql.connect(server="13.76.131.229", user="sa", password="P@ssw0rd", database="CMCSISG_Contact")
         cursor = conn.cursor()
 
         cursor.execute('''SELECT [Email]
-          FROM [CMIS_ASAP].[dbo].[UserGroups] ug
-          LEFT JOIN [CMIS_ASAP].[dbo].[Users] u on ug.UserID = u.ID
-          where ug.GroupID=10099 and [LastName] like %s''', person_email)
+                        FROM [CMCSISG_Contact].[dbo].[Contacts]
+                        WHERE [LastName] like %s''', per)
 
         for row in cursor:
             email = row[0]
 
         response = """Đây là email của {}: {}""".format(
-            person_email, email)
+            per, email)
 
         dispatcher.utter_message(response)
 
         conn.close()
-        return [SlotSet('person_email', person_email)]
+        return [SlotSet('person', per)]
